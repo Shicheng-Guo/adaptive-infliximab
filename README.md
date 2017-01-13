@@ -2,9 +2,16 @@
 R code used to perform simulations as outlined in *"Infliximab maintenance dosing in inflammatory bowel disease: an example for in silico assessment of adaptive dosing strategies"*
 
 ## To Run:
+**If you cloned the repository:**
 1. Open *run.R* in text editor
-2. Update `user.dir` to the **adaptive-infliximab** GitHub repository location (line 8)
+2. Line 8: update `user.dir` to the **adaptive-infliximab** GitHub repository location
 3. Run all contents of the *run.R* script in R
+
+**If you download the .zip folder**
+1. Open *run.R* in text editor
+2. Line 8: update `user.dir` to the **adaptive-infliximab** GitHub repository location
+3. Line 17: update `work.dir` to have *"adaptive-infliximab-master/"* instead of *"adaptive-infliximab/"*
+4. Run all contents of the *run.R* script in R
 
 ### Required R Libraries:
 mrgsolve (0.7.6), dplyr (0.5.0), plyr (1.8.4), ggplot2 (2.1.0)
