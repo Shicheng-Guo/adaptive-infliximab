@@ -3,11 +3,13 @@ R code used to perform simulations as outlined in *"Infliximab maintenance dosin
 
 ## To Run:
 **If you cloned the repository:**
+
 1. Open *run.R* in text editor
 2. Line 8: update `user.dir` to the **adaptive-infliximab** GitHub repository location
 3. Run all contents of the *run.R* script in R
 
-**If you download the .zip folder**
+**If you downloaded the .zip folder**
+
 1. Open *run.R* in text editor
 2. Line 8: update `user.dir` to the **adaptive-infliximab** GitHub repository location
 3. Line 17: update `work.dir` to have *"adaptive-infliximab-master/"* instead of *"adaptive-infliximab/"*
